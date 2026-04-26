@@ -1,0 +1,569 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VOLT — Комп'ютерна техніка</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ══════════════ HEADER ══════════════ -->
+<header>
+  <div class="nav-top">
+    <a href="index.htnl" class="logo">VOLT<span>.</span>UA</a>
+    <nav>
+      <a href="#catalog">Каталог</a>
+      <a href="#deal">Акції</a>
+      <a href="categories.html">Категорії</a>
+      <a href="#">Бренди</a>
+      <a href="#">Контакти</a>
+    </nav>
+    <div class="nav-actions">
+      <div class="search-wrap">
+        <input type="text" placeholder="Пошук товарів...">
+      </div>
+      <a href="#" class="btn-cart">🛒 Кошик</a>
+    </div>
+  </div>
+  <div class="nav-cats">
+    <a href="#"><span class="icon">💻</span> Ноутбуки</a>
+    <a href="#"><span class="icon">🖥️</span> Десктопи</a>
+    <a href="#"><span class="icon">🎮</span> Відеокарти</a>
+    <a href="#"><span class="icon">📺</span> Монітори</a>
+    <a href="#"><span class="icon">⌨️</span> Периферія</a>
+    <a href="#"><span class="icon">💾</span> Накопичувачі</a>
+    <a href="#"><span class="icon">🔧</span> Комплектуючі</a>
+    <a href="#"><span class="icon">🖨️</span> Оргтехніка</a>
+  </div>
+</header>
+
+<!-- ══════════════ HERO ══════════════ -->
+<section class="hero">
+  <div class="hero-left">
+    <div class="hero-eyebrow">Нова колекція 2024</div>
+    <h1>Залізо<br>для <em>перемог</em></h1>
+    <p class="hero-desc">Найкраща комп'ютерна техніка від провідних брендів. Офіційна гарантія, швидка доставка, найкращі ціни в Україні.</p>
+    <div class="hero-buttons">
+      <a href="#catalog" class="btn-primary">Перейти до каталогу</a>
+      <a href="#deal" class="btn-ghost">Хіт місяця →</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-product">
+      <span class="hero-product-emoji"><img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSAC4GEEsWsHorjK1Jh6kfJPAqMal9rqmzGXRKTaHQz8v4PM6tdvOJUWlpyDZQX04gEIL6eSB9Iofv35BbT1B2S3VdIdwy3G1aPJ7u5HfM7FJLKIXAPGVtzKfrZF0kI7_7Br0mo82LzsQ&usqp=CAc"></span>
+      <div class="hero-product-info">
+        <div class="hero-product-name">ASUS ROG Strix G18</div>
+        <div class="hero-product-price">₴149 990</div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="stat">
+      <span class="stat-num">2 400+</span>
+      <span class="stat-label">Товарів</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">48</span>
+      <span class="stat-label">Офіційних брендів</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">89 000+</span>
+      <span class="stat-label">Задоволених клієнтів</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">24/7</span>
+      <span class="stat-label">Підтримка</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ PROMO ROW ══════════════ -->
+<div class="promo-row">
+  <div class="promo-card promo-card-1">
+    <span class="promo-emoji">🖥️</span>
+    <div class="promo-over">Гарячі знижки</div>
+    <div class="promo-title">Ноутбуки<br>до −30%</div>
+    <a href="#catalog" class="promo-link">Дивитись всі →</a>
+  </div>
+  <div class="promo-card promo-card-2">
+    <span class="promo-emoji">🎮</span>
+    <div class="promo-over">Лімітована серія</div>
+    <div class="promo-title">RTX 4090<br>є в наявності</div>
+    <a href="#catalog" class="promo-link">Купити →</a>
+  </div>
+  <div class="promo-card promo-card-3">
+    <span class="promo-emoji">⌨️</span>
+    <div class="promo-over">Акція тижня</div>
+    <div class="promo-title">Периферія<br>від ₴499</div>
+    <a href="#catalog" class="promo-link">Детальніше →</a>
+  </div>
+</div>
+
+<!-- ══════════════ CATEGORIES ══════════════ -->
+<section class="cat-section" id="categories">
+  <div class="section-head" style="max-width:1200px;margin:0 auto 32px;">
+    <div>
+      <span class="section-label">// категорії</span>
+      <h2 class="section-title">Що вас цікавить?</h2>
+    </div>
+  </div>
+  <div class="cat-grid" style="max-width:1200px;margin:0 auto;">
+    <a href="#" class="cat-card">
+      <span class="cat-emoji">💻</span>
+      <span class="cat-name">Ноутбуки</span>
+      <span class="cat-count">486 товарів</span>
+    </a>
+    <a href="#" class="cat-card">
+      <span class="cat-emoji">🖥️</span>
+      <span class="cat-name">Десктопи</span>
+      <span class="cat-count">214 товарів</span>
+    </a>
+    <a href="#" class="cat-card">
+      <span class="cat-emoji">🎮</span>
+      <span class="cat-name">Відеокарти</span>
+      <span class="cat-count">128 товарів</span>
+    </a>
+    <a href="#" class="cat-card">
+      <span class="cat-emoji">📺</span>
+      <span class="cat-name">Монітори</span>
+      <span class="cat-count">193 товарів</span>
+    </a>
+    <a href="#" class="cat-card">
+      <span class="cat-emoji">⌨️</span>
+      <span class="cat-name">Периферія</span>
+      <span class="cat-count">374 товарів</span>
+    </a>
+    <a href="#" class="cat-card">
+      <span class="cat-emoji">💾</span>
+      <span class="cat-name">Накопичувачі</span>
+      <span class="cat-count">261 товарів</span>
+    </a>
+  </div>
+</section>
+
+<!-- ══════════════ CATALOG ══════════════ -->
+<section class="products-section" id="catalog" style="padding: 80px 40px; background: var(--paper);">
+  <div style="max-width:1200px; margin: 0 auto;">
+    <div class="section-head">
+      <div>
+        <span class="section-label">// каталог</span>
+        <h2 class="section-title">Популярні товари</h2>
+      </div>
+      <a href="#" class="section-link">Всі товари →</a>
+    </div>
+
+    <!-- CSS-only filter tabs -->
+    <div class="filter-wrap">
+      <input type="radio" name="cat" id="f-all"        checked>
+      <label class="filter-label" for="f-all">Усі</label>
+
+      <input type="radio" name="cat" id="f-laptop">
+      <label class="filter-label" for="f-laptop">Ноутбуки</label>
+
+      <input type="radio" name="cat" id="f-gpu">
+      <label class="filter-label" for="f-gpu">Відеокарти</label>
+
+      <input type="radio" name="cat" id="f-monitor">
+      <label class="filter-label" for="f-monitor">Монітори</label>
+
+      <input type="radio" name="cat" id="f-peripheral">
+      <label class="filter-label" for="f-peripheral">Периферія</label>
+
+      <input type="radio" name="cat" id="f-storage">
+      <label class="filter-label" for="f-storage">Накопичувачі</label>
+    </div>
+
+    <div class="products-grid">
+
+      <!-- CARD 1 -->
+      <div class="product-card">
+        <div class="product-img-wrap">
+          <span class="badge badge-new">Новинка</span>
+          <span class="product-emoji"><img src="data:image/webp;base64,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"></span>
+          <div class="overlay-actions">
+            <div class="overlay-btn" title="До бажаного">♡</div>
+            <div class="overlay-btn" title="Порівняти">⇄</div>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-cat">Ноутбуки</div>
+          <div class="product-name">ASUS ROG Zephyrus G14 2024</div>
+          <div class="product-specs">
+            <span class="spec">Ryzen 9 7940HS</span>
+            <span class="spec">RTX 4060</span>
+            <span class="spec">32GB</span>
+            <span class="spec">1TB NVMe</span>
+          </div>
+          <div class="product-footer">
+            <div class="price-block">
+              <span class="price">₴82 990</span>
+            </div>
+            <a href="#" class="btn-add">+</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="product-card">
+        <div class="product-img-wrap">
+          <span class="badge badge-top">Хіт</span>
+          <span class="product-emoji"><img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQSTfS9SZgynrJTQGkogA1tUG-Rt7R0pGaMGbECog169invZQDd1x1CpWnk6Uh4xh0jP87QY1qUSXbvftTonrRkdrJFteoFP-eeOvoE-jb1zadgaWJ3Kqn6NOort65HE2XfYp0sK6Y&usqp=CAc"></span>
+          <div class="overlay-actions">
+            <div class="overlay-btn">♡</div>
+            <div class="overlay-btn">⇄</div>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-cat">Відеокарти</div>
+          <div class="product-name">NVIDIA RTX 4090 ASUS ROG STRIX</div>
+          <div class="product-specs">
+            <span class="spec">24GB GDDR6X</span>
+            <span class="spec">DLSS 3</span>
+            <span class="spec">4K Gaming</span>
+          </div>
+          <div class="product-footer">
+            <div class="price-block">
+              <span class="price">₴72 990</span>
+            </div>
+            <a href="#" class="btn-add">+</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="product-card">
+        <div class="product-img-wrap">
+          <span class="badge badge-sale">−20%</span>
+          <span class="product-emoji"><img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSfP3fnkNcqcLHjMYZFLxjLGPZ8iK7JZ9mSj_fHyIe-ks8vdwjk3xVb2Y3udqwdkdhgA2Uy2CdnwXNn2wfUtpNwYJIlbcuJIHVEOMcZ9xWHIx_NYeSNKRSo3JUMCCl7GG1Qq82a825Xegs&usqp=CAc"></span>
+          <div class="overlay-actions">
+            <div class="overlay-btn">♡</div>
+            <div class="overlay-btn">⇄</div>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-cat">Монітори</div>
+          <div class="product-name">ASUS ROG Swift OLED PG27AQDP</div>
+          <div class="product-specs">
+            <span class="spec">27" QHD OLED</span>
+            <span class="spec">480Hz</span>
+            <span class="spec">HDR400</span>
+          </div>
+          <div class="product-footer">
+            <div class="price-block">
+              <span class="price">₴44 990</span>
+              <span class="price-old">₴55 990</span>
+            </div>
+            <a href="#" class="btn-add">+</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="product-card">
+        <div class="product-img-wrap">
+          <span class="product-emoji"><img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRlSu5q-xAAjv3G4Az3WqLY2bEqYXc-hnwq4ZnHgR-ZCf2zFcl_VC_SK78RnVCLeZzYYRZsrS_wbjYfSV-ua2ZLOQ2gZmh7ms2e7lHNJXPV9S5R0ai6HRkm5MIdeCH8I1WQ_sjjyNH_cR8&usqp=CAc"></span>
+          <div class="overlay-actions">
+            <div class="overlay-btn">♡</div>
+            <div class="overlay-btn">⇄</div>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-cat">Ноутбуки</div>
+          <div class="product-name">MacBook Pro 16" M3 Max</div>
+          <div class="product-specs">
+            <span class="spec">M3 Max</span>
+            <span class="spec">128GB RAM</span>
+            <span class="spec">8TB SSD</span>
+            <span class="spec">Retina XDR</span>
+          </div>
+          <div class="product-footer">
+            <div class="price-block">
+              <span class="price">₴179 990</span>
+            </div>
+            <a href="#" class="btn-add">+</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 5 -->
+      <div class="product-card">
+        <div class="product-img-wrap">
+          <span class="badge badge-new">Новинка</span>
+          <span class="product-emoji">🖱️</span>
+          <div class="overlay-actions">
+            <div class="overlay-btn">♡</div>
+            <div class="overlay-btn">⇄</div>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-cat">Периферія</div>
+          <div class="product-name">Razer DeathAdder V3 Pro Wireless</div>
+          <div class="product-specs">
+            <span class="spec">30K DPI</span>
+            <span class="spec">63g</span>
+            <span class="spec">HyperSpeed</span>
+          </div>
+          <div class="product-footer">
+            <div class="price-block">
+              <span class="price">₴4 299</span>
+            </div>
+            <a href="#" class="btn-add">+</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 6 -->
+      <div class="product-card">
+        <div class="product-img-wrap">
+          <span class="badge badge-sale">−15%</span>
+          <span class="product-emoji">💾</span>
+          <div class="overlay-actions">
+            <div class="overlay-btn">♡</div>
+            <div class="overlay-btn">⇄</div>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-cat">Накопичувачі</div>
+          <div class="product-name">Samsung 990 Pro NVMe SSD 2TB</div>
+          <div class="product-specs">
+            <span class="spec">PCIe 4.0</span>
+            <span class="spec">7 450 МБ/с</span>
+            <span class="spec">M.2 2280</span>
+          </div>
+          <div class="product-footer">
+            <div class="price-block">
+              <span class="price">₴5 499</span>
+              <span class="price-old">₴6 490</span>
+            </div>
+            <a href="#" class="btn-add">+</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 7 -->
+      <div class="product-card">
+        <div class="product-img-wrap">
+          <span class="badge badge-top">Хіт</span>
+          <span class="product-emoji">🎧</span>
+          <div class="overlay-actions">
+            <div class="overlay-btn">♡</div>
+            <div class="overlay-btn">⇄</div>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-cat">Периферія</div>
+          <div class="product-name">SteelSeries Arctis Nova Pro Wireless</div>
+          <div class="product-specs">
+            <span class="spec">Hi-Res Audio</span>
+            <span class="spec">ANC</span>
+            <span class="spec">2.4GHz</span>
+          </div>
+          <div class="product-footer">
+            <div class="price-block">
+              <span class="price">₴12 990</span>
+            </div>
+            <a href="#" class="btn-add">+</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 8 -->
+      <div class="product-card">
+        <div class="product-img-wrap">
+          <span class="product-emoji">🎬</span>
+          <div class="overlay-actions">
+            <div class="overlay-btn">♡</div>
+            <div class="overlay-btn">⇄</div>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-cat">Відеокарти</div>
+          <div class="product-name">AMD Radeon RX 7900 XTX 24GB</div>
+          <div class="product-specs">
+            <span class="spec">24GB GDDR6</span>
+            <span class="spec">FSR 3</span>
+            <span class="spec">DP 2.1</span>
+          </div>
+          <div class="product-footer">
+            <div class="price-block">
+              <span class="price">₴38 990</span>
+            </div>
+            <a href="#" class="btn-add">+</a>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /products-grid -->
+
+    <div style="text-align:center; margin-top:44px;">
+      <a href="#" class="btn-primary" style="display:inline-block;">Завантажити більше товарів</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ DEAL OF THE MONTH ══════════════ -->
+<section class="deal-section" id="deal">
+  <div class="deal-inner">
+    <div class="deal-left">
+      <div class="deal-over">⚡ Хіт місяця</div>
+      <h2 class="deal-title">ASUS ROG<br>Strix <em>G18</em><br>2024</h2>
+      <p class="deal-desc">Гейминг-ноутбук нового покоління з Intel Core i9-14900HX, NVIDIA GeForce RTX 4090 та 240Гц QHD+ дисплеєм. Революційна система охолодження ROG Intelligent Cooling.</p>
+
+      <div class="deal-specs">
+        <div class="deal-spec-item">
+          <span class="deal-spec-key">Процесор</span>
+          <span class="deal-spec-val">Intel Core i9-14900HX</span>
+        </div>
+        <div class="deal-spec-item">
+          <span class="deal-spec-key">Відеокарта</span>
+          <span class="deal-spec-val">NVIDIA RTX 4090 16GB</span>
+        </div>
+        <div class="deal-spec-item">
+          <span class="deal-spec-key">Дисплей</span>
+          <span class="deal-spec-val">18" QHD+ 240Hz OLED</span>
+        </div>
+        <div class="deal-spec-item">
+          <span class="deal-spec-key">Оперативна пам'ять</span>
+          <span class="deal-spec-val">64GB DDR5-5600</span>
+        </div>
+      </div>
+
+      <div class="deal-price-row">
+        <span class="deal-price">₴149 990</span>
+        <span class="deal-price-old">₴179 990</span>
+      </div>
+      <div class="deal-actions">
+        <a href="#" class="btn-primary">До кошика</a>
+        <a href="#" class="btn-ghost">Детальніше</a>
+      </div>
+    </div>
+    <div class="deal-right">
+      <span class="deal-emoji">💻</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ BRANDS ══════════════ -->
+<div class="brands-section">
+  <div class="brands-inner">
+    <span class="brand-item">ASUS</span>
+    <span class="brand-item">MSI</span>
+    <span class="brand-item">NVIDIA</span>
+    <span class="brand-item">AMD</span>
+    <span class="brand-item">Intel</span>
+    <span class="brand-item">Samsung</span>
+    <span class="brand-item">Corsair</span>
+    <span class="brand-item">Logitech</span>
+    <span class="brand-item">Apple</span>
+    <span class="brand-item">Razer</span>
+    <span class="brand-item">Gigabyte</span>
+    <span class="brand-item">Kingston</span>
+    <span class="brand-item">ASUS</span>
+    <span class="brand-item">MSI</span>
+    <span class="brand-item">NVIDIA</span>
+    <span class="brand-item">AMD</span>
+    <span class="brand-item">Intel</span>
+    <span class="brand-item">Samsung</span>
+    <span class="brand-item">Corsair</span>
+    <span class="brand-item">Logitech</span>
+    <span class="brand-item">Apple</span>
+    <span class="brand-item">Razer</span>
+    <span class="brand-item">Gigabyte</span>
+    <span class="brand-item">Kingston</span>
+  </div>
+</div>
+
+<!-- ══════════════ USP ══════════════ -->
+<section class="usp-section">
+  <div class="usp-grid">
+    <div class="usp-item">
+      <span class="usp-icon">🚚</span>
+      <div class="usp-title">Безкоштовна доставка</div>
+      <p class="usp-desc">При замовленні від ₴3 000. Кур'єр на наступний день по всій Україні.</p>
+    </div>
+    <div class="usp-item">
+      <span class="usp-icon">🛡️</span>
+      <div class="usp-title">Офіційна гарантія</div>
+      <p class="usp-desc">До 36 місяців від виробника. Авторизований сервісний центр.</p>
+    </div>
+    <div class="usp-item">
+      <span class="usp-icon">💳</span>
+      <div class="usp-title">Розстрочка 0%</div>
+      <p class="usp-desc">До 24 місяців без переплати. Миттєве рішення від банків-партнерів.</p>
+    </div>
+    <div class="usp-item">
+      <span class="usp-icon">🔄</span>
+      <div class="usp-title">Повернення 30 днів</div>
+      <p class="usp-desc">Не підійшло — повернемо кошти без зайвих питань.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ NEWSLETTER ══════════════ -->
+<section class="newsletter">
+  <div class="newsletter-inner">
+    <div class="newsletter-tag">Будь першим</div>
+    <h2>Знижки та новинки<br>першими</h2>
+    <p>Підписуйся на розсилку та отримай знижку −5% на перше замовлення. Без спаму — тільки найкращі пропозиції.</p>
+    <div class="newsletter-form">
+      <input type="email" placeholder="Твій email...">
+      <button type="submit">Підписатись</button>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ FOOTER ══════════════ -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <span class="footer-logo">VOLT<span>.</span>UA</span>
+      <p class="footer-desc">Провідний інтернет-магазин комп'ютерної техніки в Україні. Тільки оригінальна продукція від офіційних дистриб'юторів.</p>
+      <div class="footer-socials">
+        <div class="social-btn">📸</div>
+        <div class="social-btn">✈️</div>
+        <div class="social-btn">▶️</div>
+        <div class="social-btn">💼</div>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Каталог</h4>
+      <a href="#">Ноутбуки</a>
+      <a href="#">Настільні ПК</a>
+      <a href="#">Відеокарти</a>
+      <a href="#">Монітори</a>
+      <a href="#">Периферія</a>
+      <a href="#">Комплектуючі</a>
+    </div>
+    <div class="footer-col">
+      <h4>Сервіс</h4>
+      <a href="#">Доставка і оплата</a>
+      <a href="#">Гарантія</a>
+      <a href="#">Повернення</a>
+      <a href="#">Розстрочка</a>
+      <a href="#">Сервісний центр</a>
+      <a href="#">Корпоративним</a>
+    </div>
+    <div class="footer-col">
+      <h4>Контакти</h4>
+      <a href="#">0 800 123 456</a>
+      <a href="#">info@volt.ua</a>
+      <a href="#">пн–пт 9:00–20:00</a>
+      <a href="#">сб–нд 10:00–18:00</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-copy">© 2024 <span>VOLT.UA</span> — Всі права захищені. Зроблено з ❤️ в Україні</span>
+    <div class="footer-pay">
+      <span class="pay-icon">VISA</span>
+      <span class="pay-icon">MC</span>
+      <span class="pay-icon">MONOBANK</span>
+      <span class="pay-icon">PRIVAT</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
